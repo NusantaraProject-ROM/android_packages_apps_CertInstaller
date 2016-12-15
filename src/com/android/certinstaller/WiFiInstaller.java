@@ -93,7 +93,8 @@ public class WiFiInstaller extends Activity {
                         public void run() {
                             boolean success = false;
                             try {
-                                success = mWifiManager.addPasspointConfiguration(mPasspointConfig);
+                                success = mWifiManager.addOrUpdatePasspointConfiguration(
+                                        mPasspointConfig);
                             } catch (RuntimeException rte) {
                                 Log.w(TAG, "Caught exception while installing wifi config: " +
                                            rte, rte);
