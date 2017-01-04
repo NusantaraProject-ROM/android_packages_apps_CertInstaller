@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.net.Uri;
 import android.net.wifi.WifiConfiguration;
 import android.net.wifi.WifiEnterpriseConfig;
 import android.net.wifi.WifiManager;
@@ -19,6 +20,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.os.AsyncTask;
+import android.provider.DocumentsContract;
 
 import java.security.PrivateKey;
 import java.security.interfaces.RSAPrivateKey;
@@ -53,6 +55,7 @@ public class WiFiInstaller extends Activity {
 
         mWifiManager = (WifiManager) getSystemService(Context.WIFI_SERVICE);
         mWifiConfiguration = mWifiManager.buildWifiConfig(uriString, mimeType, data);
+        dropFile(Uri.parse(uriString), getApplicationContext());
 
         if (mWifiConfiguration != null) {
             WifiEnterpriseConfig enterpriseConfig = mWifiConfiguration.enterpriseConfig;
@@ -194,5 +197,19 @@ public class WiFiInstaller extends Activity {
             });
         }
         builder.create().show();
+    }
+
+    /**
+     * Delete the file specified by the given URI.
+     *
+     * @param uri The URI of the file
+     * @param context The context of the current application
+     */
+    private static void dropFile(Uri uri, Context context) {
+        if (DocumentsContract.isDocumentUri(context, uri)) {
+            DocumentsContract.deleteDocument(context.getContentResolver(), uri);
+        } else {
+            context.getContentResolver().delete(uri, null, null);
+        }
     }
 }
