@@ -52,7 +52,7 @@ public class WiFiInstaller extends Activity {
         if (mPasspointConfig == null) {
             Log.w(TAG, "failed to build passpoint configuration");
             doNotInstall = true;
-        } else if (mPasspointConfig.homeSp == null) {
+        } else if (mPasspointConfig.getHomeSp() == null) {
             Log.w(TAG, "Passpoint profile missing HomeSP information");
             doNotInstall = true;
         }
@@ -77,9 +77,9 @@ public class WiFiInstaller extends Activity {
         TextView text = (TextView) layout.findViewById(R.id.wifi_info);
         if (!doNotInstall) {
             text.setText(String.format(getResources().getString(R.string.wifi_installer_detail),
-                    mPasspointConfig.homeSp.friendlyName));
+                    mPasspointConfig.getHomeSp().getFriendlyName()));
 
-            builder.setTitle(mPasspointConfig.homeSp.friendlyName);
+            builder.setTitle(mPasspointConfig.getHomeSp().getFriendlyName());
             builder.setIcon(res.getDrawable(R.drawable.signal_wifi_4_bar_lock_black_24dp));
 
             builder.setPositiveButton(R.string.wifi_install_label,
@@ -104,7 +104,7 @@ public class WiFiInstaller extends Activity {
                                 Intent intent = new Intent(getApplicationContext(),
                                         CredentialsInstallDialog.class);
                                 intent.putExtra(NETWORK_NAME,
-                                        mPasspointConfig.homeSp.friendlyName);
+                                        mPasspointConfig.getHomeSp().getFriendlyName());
                                 intent.putExtra(INSTALL_STATE, INSTALL_SUCCESS);
                                 startActivity(intent);
                             } else {
