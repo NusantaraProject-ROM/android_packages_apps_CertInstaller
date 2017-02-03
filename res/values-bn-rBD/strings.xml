@@ -63,7 +63,7 @@
     <string name="wifi_config_text" msgid="8259587306773310314">"নাম: %1$s\nFQDN: %2$s\nরোমিং সহ: %3$s\nঅধিরাজ্য: %4$s\nপ্রমাণীকরণ পদ্ধতি: EAP-%5$s\n"</string>
     <string name="wifi_ttls_config_text" msgid="2002413183253872168">"ব্যবহারকারীর নাম: %s\n"</string>
     <string name="wifi_tls_config_text" msgid="9062328536640168510">"ক্লায়েন্টের শংসাপত্র:\n%1$s\nকী: %2$s\n"</string>
-    <string name="wifi_sim_config_text" msgid="1666019954520831840">"SIM: %s\n"</string>
+    <string name="wifi_sim_config_text" msgid="1666019954520831840">"সিম: %s\n"</string>
     <string name="wifi_trust_config_text" msgid="5916047381475747783">"ট্রাস্টের শংসাপত্র:\n%s\n"</string>
     <string name="install_done_title" msgid="4822989918460334497">"শংসাপত্রগুলি ইনস্টল করা হয়েছে"</string>
     <string name="install_done" msgid="1522718684172097080">"ওয়াই-ফাই এর সংরক্ষিত নেটওয়ার্কগুলিতে <xliff:g id="NAME">%1$s</xliff:g> শংসাপত্রগুলি সংরক্ষণ করা হয়েছে৷"</string>
