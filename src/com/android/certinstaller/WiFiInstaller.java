@@ -8,7 +8,7 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.net.Uri;
 import android.net.wifi.WifiManager;
-import android.net.wifi.hotspot2.ConfigBuilder;
+import android.net.wifi.hotspot2.ConfigParser;
 import android.net.wifi.hotspot2.PasspointConfiguration;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -46,7 +46,7 @@ public class WiFiInstaller extends Activity {
                 mimeType + " is " + (data != null ? data.length : "-"));
 
         mWifiManager = (WifiManager) getSystemService(Context.WIFI_SERVICE);
-        mPasspointConfig = ConfigBuilder.buildPasspointConfig(mimeType, data);
+        mPasspointConfig = ConfigParser.parsePasspointConfig(mimeType, data);
         dropFile(Uri.parse(uriString), getApplicationContext());
 
         if (mPasspointConfig == null) {
