@@ -70,7 +70,7 @@
     <string name="done_label" msgid="5597425930652904250">"সম্পন্ন"</string>
     <string name="wifi_installer_detail" msgid="63879632832701669">"<xliff:g id="NAME">%1$s</xliff:g> এর মাধ্যমে উপলব্ধ নেটওয়ার্কেগুলিতে সংযুক্ত করতে ওয়াই-ফাই শংসাপত্রগুলি ইনস্টল করুন৷"</string>
     <string name="wifi_installer_download_error" msgid="5429453090956277692">"ডাউনলোড করা ফাইলে কিছু সমস্যা রয়েছে এবং ইনস্টল করা যাবে না৷ আপনি সঠিক উৎস থেকে ফাইলটি ডাউনলোড করেছেন কিনা নিশ্চিত করুন৷"</string>
-    <string name="wifi_installer_fail" msgid="894483173306576331">"ওয়াই-ফাই শংসাপত্রগুলি ইনস্টল করা যাবে না৷ ফাইলটি পুনরায় ডাউনলোড করার চেষ্টা করুন৷"</string>
+    <string name="wifi_installer_fail" msgid="894483173306576331">"ওয়াই-ফাই শংসাপত্রগুলি ইনস্টল করা যাবে না৷ ফাইলটি আবার ডাউনলোড করার চেষ্টা করুন৷"</string>
     <string name="wifi_installer_fail_no_wifi_title" msgid="8358191074828840533">"ইনস্টলেশন বাতিল হয়েছে"</string>
     <string name="wifi_installer_fail_title" msgid="5547079779067835479">"ইনস্টল করতে পারবেন না"</string>
     <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"ওয়াই-ফাই চালু করুন এবং আবার চেষ্টা করুন।"</string>
