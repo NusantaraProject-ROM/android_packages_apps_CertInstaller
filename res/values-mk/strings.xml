@@ -42,9 +42,9 @@
     <string name="cert_too_large_error" msgid="8715414972725646285">"Не можеше да се инсталира зашто сертификатот е преголем."</string>
     <string name="cert_missing_error" msgid="7040527352278728220">"Не можеше да се инсталира зашто датотеката со сертификат не можеше да се лоцира."</string>
     <string name="cert_read_error" msgid="7353463360652419796">"Не можеше да се инсталира зашто датотеката со сертификат не можеше да се прочита."</string>
-    <string name="no_cert_file_found" product="nosdcard" msgid="3555332946357131929">"Не е пронајдена датотека со сертификати на УСБ меморијата."</string>
+    <string name="no_cert_file_found" product="nosdcard" msgid="3555332946357131929">"Не е пронајдена датотека со сертификати на USB меморијата."</string>
     <string name="no_cert_file_found" product="default" msgid="1942077544887243999">"Не е пронајдена датотека со сертификати на СД картичката."</string>
-    <string name="sdcard_not_present" product="nosdcard" msgid="9197143240492611196">"УСБ меморијата не е достапна."</string>
+    <string name="sdcard_not_present" product="nosdcard" msgid="9197143240492611196">"USB меморијата не е достапна."</string>
     <string name="sdcard_not_present" product="default" msgid="3866952732541932947">"Нема СД картичка."</string>
     <string name="only_primary_user_allowed" msgid="4005084935023047716">"Само сопственикот на овој уред може да инсталира сертификати."</string>
     <string name="credential_usage_label" msgid="1513892208033156805">"Употреба на акредитив:"</string>
@@ -63,7 +63,7 @@
     <string name="wifi_config_text" msgid="8259587306773310314">"Име: %1$s\nFQDN: %2$s\nРоаминг конзорциуми: %3$s\nПодрачје: %4$s\nМетод за автентикација: EAP-%5$s\n"</string>
     <string name="wifi_ttls_config_text" msgid="2002413183253872168">"Корисничко име: %s\n"</string>
     <string name="wifi_tls_config_text" msgid="9062328536640168510">"Сертификат на клиент:\n%1$s\nКлуч: %2$s\n"</string>
-    <string name="wifi_sim_config_text" msgid="1666019954520831840">"СИМ: %s\n"</string>
+    <string name="wifi_sim_config_text" msgid="1666019954520831840">"SIM: %s\n"</string>
     <string name="wifi_trust_config_text" msgid="5916047381475747783">"Сертификат на доверба:\n%s\n"</string>
     <string name="install_done_title" msgid="4822989918460334497">"Акредитивите се инсталирани"</string>
     <string name="install_done" msgid="1522718684172097080">"Акредитивите на <xliff:g id="NAME">%1$s</xliff:g> се додадени во зачуваните Wi-Fi мрежи."</string>
