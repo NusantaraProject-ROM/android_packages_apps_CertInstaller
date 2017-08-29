@@ -34,7 +34,7 @@
     <string name="password_empty_error" msgid="591713406761723025">"संकेतशब्द टाइप करा."</string>
     <string name="name_empty_error" msgid="3808800768660110354">"नाव टाइप करा."</string>
     <string name="name_char_error" msgid="3176618568784938968">"फक्त अक्षरे आणि संख्या असलेले नाव टाइप करा."</string>
-    <string name="unable_to_save_cert" msgid="9178604087335389686">"प्रमाणपत्र सेव्ह करू शकलो नाही. क्रेडेन्शियल स्टोरेज सक्षम नाही किंवा योग्यरितीने सुरुवात झाली नाही."</string>
+    <string name="unable_to_save_cert" msgid="9178604087335389686">"प्रमाणपत्र सेव्ह करू शकलो नाही. क्रेडेन्शियल स्टोरेज सुरू नाही किंवा योग्यरितीने सुरुवात झाली नाही."</string>
     <string name="cert_not_saved" msgid="4037698479662830270">"प्रमाणपत्र इंस्टॉल केले नाही."</string>
     <string name="no_cert_to_saved" msgid="5708884372817309068">"स्‍थापित करण्‍यासाठी कोणतेही प्रमाणपत्र नाही."</string>
     <string name="invalid_cert" msgid="7704228670980743590">"प्रमाणपत्र अवैध आहे."</string>
@@ -73,5 +73,5 @@
     <string name="wifi_installer_fail" msgid="894483173306576331">"वाय-फाय क्रेडेंशियल इंस्टॉल करू शकत नाही. फाईल डाउनलोड करण्‍याचा पुन्हा प्रयत्न करा."</string>
     <string name="wifi_installer_fail_no_wifi_title" msgid="8358191074828840533">"इंस्टॉल करणे रद्द झाले"</string>
     <string name="wifi_installer_fail_title" msgid="5547079779067835479">"इंस्टॉल करू शकत नाही"</string>
-    <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"वाय-फाय चालू करा आणि पुन्हा प्रयत्न करा."</string>
+    <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"Wi-Fi चालू करा आणि पुन्हा प्रयत्न करा."</string>
 </resources>
