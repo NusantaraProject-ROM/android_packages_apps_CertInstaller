@@ -63,7 +63,7 @@
     <string name="wifi_config_text" msgid="8259587306773310314">"નામ: %1$s\nFQDN: %2$s\nરોમિંગ કન્સોર્ટિઅમ્સ: %3$s\nરિલ્મ: %4$s\nપ્રમાણીકરણ પદ્ધતિ: EAP-%5$s\n"</string>
     <string name="wifi_ttls_config_text" msgid="2002413183253872168">"વપરાશકર્તા નામ: %s\n"</string>
     <string name="wifi_tls_config_text" msgid="9062328536640168510">"ક્લાઇન્ટ પ્રમાણપત્ર:\n%1$s\nKey: %2$s\n"</string>
-    <string name="wifi_sim_config_text" msgid="1666019954520831840">"SIM: %s\n"</string>
+    <string name="wifi_sim_config_text" msgid="1666019954520831840">"સિમ: %s\n"</string>
     <string name="wifi_trust_config_text" msgid="5916047381475747783">"વિશ્વાસ પ્રમાણપત્ર:\n%s\n"</string>
     <string name="install_done_title" msgid="4822989918460334497">"ઓળખપત્ર ઇન્સ્ટોલ કર્યા"</string>
     <string name="install_done" msgid="1522718684172097080">"વાઇ-ફાઇ દ્વારા સાચવેલા નેટવર્ક્સ પર <xliff:g id="NAME">%1$s</xliff:g> ઓળખપત્ર ઉમેરવામાં આવ્યાં છે."</string>
