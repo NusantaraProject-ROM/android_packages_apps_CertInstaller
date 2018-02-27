@@ -52,44 +52,26 @@
     <item msgid="375085478373011304">"VPN ଓ ଆପ୍‍"</item>
     <item msgid="692322974985472861">"ୱାଇ-ଫାଇ"</item>
   </string-array>
-    <!-- no translation found for wifi_title (8475811746333426489) -->
-    <skip />
-    <!-- no translation found for wifi_detail_title (3627332137252994395) -->
-    <skip />
-    <!-- no translation found for wifi_detail_label (3032151019356747583) -->
-    <skip />
-    <!-- no translation found for wifi_install_label (1449629407724323233) -->
-    <skip />
+    <string name="wifi_title" msgid="8475811746333426489">"ୱାଇ-ଫାଇ ପ୍ରୋଫାଇଲ୍‍"</string>
+    <string name="wifi_detail_title" msgid="3627332137252994395">"%sର ବିବରଣୀ"</string>
+    <string name="wifi_detail_label" msgid="3032151019356747583">"ବିବରଣୀ"</string>
+    <string name="wifi_install_label" msgid="1449629407724323233">"ଇନଷ୍ଟଲ୍‍"</string>
     <!-- no translation found for wifi_installing_label (8387393993627129025) -->
     <skip />
-    <!-- no translation found for wifi_cancel_label (1328748037608392134) -->
-    <skip />
-    <!-- no translation found for wifi_dismiss_label (1916684434873972698) -->
-    <skip />
-    <!-- no translation found for wifi_no_config (1835743123288916755) -->
-    <skip />
-    <!-- no translation found for wifi_config_text (8259587306773310314) -->
-    <skip />
-    <!-- no translation found for wifi_ttls_config_text (2002413183253872168) -->
-    <skip />
-    <!-- no translation found for wifi_tls_config_text (9062328536640168510) -->
-    <skip />
-    <!-- no translation found for wifi_sim_config_text (1666019954520831840) -->
-    <skip />
-    <!-- no translation found for wifi_trust_config_text (5916047381475747783) -->
-    <skip />
-    <!-- no translation found for install_done_title (4822989918460334497) -->
-    <skip />
-    <!-- no translation found for install_done (1522718684172097080) -->
-    <skip />
-    <!-- no translation found for done_label (5597425930652904250) -->
-    <skip />
-    <!-- no translation found for wifi_installer_detail (63879632832701669) -->
-    <skip />
-    <!-- no translation found for wifi_installer_download_error (5429453090956277692) -->
-    <skip />
-    <!-- no translation found for wifi_installer_fail (894483173306576331) -->
-    <skip />
+    <string name="wifi_cancel_label" msgid="1328748037608392134">"କ୍ୟାନ୍ସଲ୍‍ କରନ୍ତୁ"</string>
+    <string name="wifi_dismiss_label" msgid="1916684434873972698">"ଖାରଜ"</string>
+    <string name="wifi_no_config" msgid="1835743123288916755">"କିଛିନୁହେଁ"</string>
+    <string name="wifi_config_text" msgid="8259587306773310314">"ନାମ: %1$s\nFQDN: %2$s\nରୋମିଙ୍ଗ କନ୍ସୋଟିୟମ୍ସ: %3$s\nରେଲାମ୍‍: %4$s\nସ୍ୱୀକୃତି ପଦ୍ଧତି: EAP-%5$s\n"</string>
+    <string name="wifi_ttls_config_text" msgid="2002413183253872168">"ୟୁଜର୍‍ଙ୍କ ନାମ: %s\n"</string>
+    <string name="wifi_tls_config_text" msgid="9062328536640168510">"କ୍ଲାଏଣ୍ଟ ସର୍ଟିଫିକେଟ୍‍:\n%1$s\nକୀ’: %2$s\n"</string>
+    <string name="wifi_sim_config_text" msgid="1666019954520831840">"SIM: %s\n"</string>
+    <string name="wifi_trust_config_text" msgid="5916047381475747783">"ବିଶ୍ୱସ୍ତ ସର୍ଟିଫିକେଟ୍‍:\n%s\n"</string>
+    <string name="install_done_title" msgid="4822989918460334497">"କ୍ରେଡେନସିଆଲ୍ସ ଇନଷ୍ଟଲ୍‍ କରାଗଲା"</string>
+    <string name="install_done" msgid="1522718684172097080">"ୱାଇ-ଫାଇ ସେଭ୍‍ କରାଯାଇଥିବା ନେଟୱର୍କଗୁଡିକରେ <xliff:g id="NAME">%1$s</xliff:g>ଙ୍କ କ୍ରେଡେନ୍ସିଆଲ୍ସ ଯୋଡ଼ାଯାଇଛି।"</string>
+    <string name="done_label" msgid="5597425930652904250">"ହୋଇଗଲା"</string>
+    <string name="wifi_installer_detail" msgid="63879632832701669">"<xliff:g id="NAME">%1$s</xliff:g> ଜରିଆରେ ଉପଲବ୍ଧ ନେଟୱର୍କଗୁଡ଼ିକ ସହ ସଂଯୋଗ କରିବାକୁ ୱାଇ-ଫାଇ କ୍ରେଡେନସିଆଲ୍ସ ଇନଷ୍ଟଲ୍‍ କରନ୍ତୁ।"</string>
+    <string name="wifi_installer_download_error" msgid="5429453090956277692">"ଡାଉନଲୋଡ୍ କରାଯାଇଥିବା ଫାଇଲ୍‍ରେ ସମସ୍ୟା ରହିଛି ଏବଂ ଇନଷ୍ଟଲ୍‍ କରାଯାଇପାରିବ ନାହିଁ। ଆପଣ ସଠିକ୍‍ ସୋର୍ସରୁ ଫାଇଲ୍‍ ଡାଉନଲୋଡ୍ କରିଥିବା ନିଶ୍ଚିତ କରନ୍ତୁ।"</string>
+    <string name="wifi_installer_fail" msgid="894483173306576331">"ୱାଇ-ଫାଇଲ କ୍ରେଡେନସିଆଲ୍ସ ଇନଷ୍ଟଲ୍‍ କରିପାରିବ ନାହିଁ। ଫାଇଲ୍‍ ପୁଣି ଡାଉନଲୋଡ୍ କରିବାକୁ ଚେଷ୍ଟା କରନ୍ତୁ।"</string>
     <!-- no translation found for wifi_installer_fail_no_wifi_title (8358191074828840533) -->
     <skip />
     <!-- no translation found for wifi_installer_fail_title (5547079779067835479) -->
