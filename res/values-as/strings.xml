@@ -60,8 +60,7 @@
     <skip />
     <!-- no translation found for wifi_install_label (1449629407724323233) -->
     <skip />
-    <!-- no translation found for wifi_installing_label (8387393993627129025) -->
-    <skip />
+    <string name="wifi_installing_label" msgid="8387393993627129025">"ইনষ্টল কৰি থকা হৈছে"</string>
     <!-- no translation found for wifi_cancel_label (1328748037608392134) -->
     <skip />
     <!-- no translation found for wifi_dismiss_label (1916684434873972698) -->
@@ -90,10 +89,7 @@
     <skip />
     <!-- no translation found for wifi_installer_fail (894483173306576331) -->
     <skip />
-    <!-- no translation found for wifi_installer_fail_no_wifi_title (8358191074828840533) -->
-    <skip />
-    <!-- no translation found for wifi_installer_fail_title (5547079779067835479) -->
-    <skip />
-    <!-- no translation found for wifi_installer_fail_no_wifi (2044576439984209921) -->
-    <skip />
+    <string name="wifi_installer_fail_no_wifi_title" msgid="8358191074828840533">"ইনষ্টলেশ্বন বাতিল কৰা হ\'ল"</string>
+    <string name="wifi_installer_fail_title" msgid="5547079779067835479">"ইনষ্টল কৰিব নোৱাৰি"</string>
+    <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"ৱাই-ফাই অন কৰি আকৌ চেষ্টা কৰক।"</string>
 </resources>
