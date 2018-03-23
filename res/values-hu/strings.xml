@@ -52,6 +52,8 @@
     <item msgid="375085478373011304">"VPN és alkalmazások"</item>
     <item msgid="692322974985472861">"Wi-Fi"</item>
   </string-array>
+    <!-- no translation found for certificate_capabilities_warning (4158609401937799110) -->
+    <skip />
     <string name="wifi_title" msgid="8475811746333426489">"Wi-Fi-profil"</string>
     <string name="wifi_detail_title" msgid="3627332137252994395">"%s részletei"</string>
     <string name="wifi_detail_label" msgid="3032151019356747583">"Részletek"</string>
