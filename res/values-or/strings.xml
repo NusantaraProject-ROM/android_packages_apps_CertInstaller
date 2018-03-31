@@ -52,6 +52,7 @@
     <item msgid="375085478373011304">"VPN ଓ ଆପ୍‍"</item>
     <item msgid="692322974985472861">"ୱାଇ-ଫାଇ"</item>
   </string-array>
+    <string name="certificate_capabilities_warning" msgid="4158609401937799110">"ଧ୍ୟାନଦିଅନ୍ତୁ: ଏହି ସର୍ଟିଫିକେଟ୍ ଜାରି କରିଥିବା କମ୍ପାନୀ, ଡିଭାଇସ୍‌ରୁ ଯାଉଥିବା ଓ ଆସୁଥିବା ସମସ୍ତ ଟ୍ରାଫିକ୍‌କୁ ଯାଞ୍ଚ କରିପାରନ୍ତି।"</string>
     <string name="wifi_title" msgid="8475811746333426489">"ୱାଇ-ଫାଇ ପ୍ରୋଫାଇଲ୍‍"</string>
     <string name="wifi_detail_title" msgid="3627332137252994395">"%sର ବିବରଣୀ"</string>
     <string name="wifi_detail_label" msgid="3032151019356747583">"ବିବରଣୀ"</string>
