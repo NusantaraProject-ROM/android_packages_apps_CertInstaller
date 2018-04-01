@@ -52,43 +52,26 @@
     <item msgid="375085478373011304">"ভিপিএন আৰু এপসমূহ"</item>
     <item msgid="692322974985472861">"ৱাই-ফাই"</item>
   </string-array>
-    <!-- no translation found for wifi_title (8475811746333426489) -->
-    <skip />
-    <!-- no translation found for wifi_detail_title (3627332137252994395) -->
-    <skip />
-    <!-- no translation found for wifi_detail_label (3032151019356747583) -->
-    <skip />
-    <!-- no translation found for wifi_install_label (1449629407724323233) -->
-    <skip />
+    <string name="certificate_capabilities_warning" msgid="4158609401937799110">"টোকা: এই প্ৰমাণপত্ৰ প্ৰদানকাৰীয়ে এই ডিভাইচটোৰ পৰা যোৱা আৰু ডিভাইচটোলৈ অহা সকলো ট্ৰেফিক পৰ্যবেক্ষণ কৰিব পাৰে।"</string>
+    <string name="wifi_title" msgid="8475811746333426489">"ৱাই- ফাই প্ৰ\'ফাইল"</string>
+    <string name="wifi_detail_title" msgid="3627332137252994395">"%sৰ সবিশেষ"</string>
+    <string name="wifi_detail_label" msgid="3032151019356747583">"সবিশেষ"</string>
+    <string name="wifi_install_label" msgid="1449629407724323233">"ইনষ্টল কৰক"</string>
     <string name="wifi_installing_label" msgid="8387393993627129025">"ইনষ্টল কৰি থকা হৈছে"</string>
-    <!-- no translation found for wifi_cancel_label (1328748037608392134) -->
-    <skip />
-    <!-- no translation found for wifi_dismiss_label (1916684434873972698) -->
-    <skip />
-    <!-- no translation found for wifi_no_config (1835743123288916755) -->
-    <skip />
-    <!-- no translation found for wifi_config_text (8259587306773310314) -->
-    <skip />
-    <!-- no translation found for wifi_ttls_config_text (2002413183253872168) -->
-    <skip />
-    <!-- no translation found for wifi_tls_config_text (9062328536640168510) -->
-    <skip />
-    <!-- no translation found for wifi_sim_config_text (1666019954520831840) -->
-    <skip />
-    <!-- no translation found for wifi_trust_config_text (5916047381475747783) -->
-    <skip />
-    <!-- no translation found for install_done_title (4822989918460334497) -->
-    <skip />
-    <!-- no translation found for install_done (1522718684172097080) -->
-    <skip />
-    <!-- no translation found for done_label (5597425930652904250) -->
-    <skip />
-    <!-- no translation found for wifi_installer_detail (63879632832701669) -->
-    <skip />
-    <!-- no translation found for wifi_installer_download_error (5429453090956277692) -->
-    <skip />
-    <!-- no translation found for wifi_installer_fail (894483173306576331) -->
-    <skip />
+    <string name="wifi_cancel_label" msgid="1328748037608392134">"বাতিল কৰক"</string>
+    <string name="wifi_dismiss_label" msgid="1916684434873972698">"অগ্ৰাহ্য কৰক"</string>
+    <string name="wifi_no_config" msgid="1835743123288916755">"একো নাই"</string>
+    <string name="wifi_config_text" msgid="8259587306773310314">"নাম: %1$s\nFQDN: %2$s\nৰ\'মিঙৰ বাণিজ্যিক গোটসমূহ: %3$s\nৰাষ্ট্ৰ: %4$s\nসত্যাপন পদ্ধতি: EAP-%5$s\n"</string>
+    <string name="wifi_ttls_config_text" msgid="2002413183253872168">"ব্য়ৱহাৰকাৰীৰ নাম: %s\n"</string>
+    <string name="wifi_tls_config_text" msgid="9062328536640168510">"ক্লায়েণ্টৰ প্ৰমাণপত্ৰ:\n%1$s\nকী: %2$s\n"</string>
+    <string name="wifi_sim_config_text" msgid="1666019954520831840">"ছিম: %s\n"</string>
+    <string name="wifi_trust_config_text" msgid="5916047381475747783">"প্ৰমাণপত্ৰখনক বিশ্বাস কৰক:\n%s\n"</string>
+    <string name="install_done_title" msgid="4822989918460334497">"ক্ৰেডেনশ্বিয়েলসমূহ ইনষ্টল কৰা হ\'ল"</string>
+    <string name="install_done" msgid="1522718684172097080">"<xliff:g id="NAME">%1$s</xliff:g>ৰ ক্ৰেডেনশ্বিয়েলসমূহ ৱাই-ফাইয়ে ছেভ কৰা নেটৱৰ্কসমূহত যোগ দিয়া হ\'ল।"</string>
+    <string name="done_label" msgid="5597425930652904250">"সম্পন্ন কৰা হ\'ল"</string>
+    <string name="wifi_installer_detail" msgid="63879632832701669">"<xliff:g id="NAME">%1$s</xliff:g>ৰ যোগেৰে উপলব্ধ নেটৱর্কসমূহৰ সৈতে সংযোগ কৰিবলৈ ৱাই-ফাইৰ ক্ৰেডেনশ্বিয়েলসমূহ ইনষ্টল কৰক।"</string>
+    <string name="wifi_installer_download_error" msgid="5429453090956277692">"ডাউনল\'ড কৰা ফাইলটোত সমস্য়া আছে আৰু ইয়াক ইনষ্টল কৰিব নোৱাৰি। আপুনি সঠিক উৎসৰ পৰা ফাইলটো ডাউনল\'ড কৰিছিলনে সুনিশ্চিত কৰক।"</string>
+    <string name="wifi_installer_fail" msgid="894483173306576331">"ৱাই-ফাইৰ ক্ৰেডেনশ্বিয়েলসমূহ ইনষ্টল কৰিব নোৱাৰি। ফাইলটো আকৌ ডাউনল\'ড কৰিবলৈ চেষ্টা কৰক।"</string>
     <string name="wifi_installer_fail_no_wifi_title" msgid="8358191074828840533">"ইনষ্টলেশ্বন বাতিল কৰা হ\'ল"</string>
     <string name="wifi_installer_fail_title" msgid="5547079779067835479">"ইনষ্টল কৰিব নোৱাৰি"</string>
     <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"ৱাই-ফাই অন কৰি আকৌ চেষ্টা কৰক।"</string>
