@@ -53,6 +53,8 @@
     <string name="cert_not_saved">The certificate is not installed.</string>
     <string name="no_cert_to_saved">No certificate to install.</string>
     <string name="invalid_cert">The certificate is invalid.</string>
+    <string name="action_missing_private_key">Private key required to install a certificate</string>
+    <string name="action_missing_user_cert">Certificate required to install a private key</string>
 
     <!-- toast message -->
     <string name="cert_is_added"><xliff:g id="credential">%s</xliff:g> is installed.</string>
