@@ -186,9 +186,8 @@ class CredentialHelper {
         return mBundle.containsKey(KeyChain.EXTRA_PKCS12);
     }
 
-    boolean hasKeyPair() {
-        return mBundle.containsKey(Credentials.EXTRA_PUBLIC_KEY)
-                && mBundle.containsKey(Credentials.EXTRA_PRIVATE_KEY);
+    boolean hasPrivateKey() {
+        return mBundle.containsKey(Credentials.EXTRA_PRIVATE_KEY);
     }
 
     boolean hasUserCertificate() {

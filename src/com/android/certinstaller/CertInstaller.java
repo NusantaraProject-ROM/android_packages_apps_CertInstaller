@@ -113,7 +113,13 @@ public class CertInstaller extends Activity {
                         startActivityForResult(intent, REQUEST_CONFIRM_CREDENTIALS);
                     }
                 } else {
-                    onScreenlockOk();
+                    if (mCredentials.hasUserCertificate() && !mCredentials.hasPrivateKey()) {
+                        toastErrorAndFinish(R.string.action_missing_private_key);
+                    } else if (mCredentials.hasPrivateKey() && !mCredentials.hasUserCertificate()) {
+                        toastErrorAndFinish(R.string.action_missing_user_cert);
+                    } else {
+                        onScreenlockOk();
+                    }
                 }
             }
         } else {
@@ -137,7 +143,7 @@ public class CertInstaller extends Activity {
     }
 
     private boolean needsKeyStoreAccess() {
-        return ((mCredentials.hasKeyPair() || mCredentials.hasUserCertificate())
+        return ((mCredentials.hasPrivateKey() || mCredentials.hasUserCertificate())
                 && !mKeyStore.isUnlocked());
     }
 
@@ -251,28 +257,13 @@ public class CertInstaller extends Activity {
     }
 
     void installOthers() {
-        if (mCredentials.hasKeyPair()) {
-            saveKeyPair();
+        // Sanity check
+        if (!(mCredentials.hasPrivateKey() && mCredentials.hasUserCertificate())) {
             finish();
-        } else {
-            X509Certificate cert = mCredentials.getUserCertificate();
-            if (cert != null) {
-                // find matched private key
-                String key = Util.toMd5(cert.getPublicKey().getEncoded());
-                Map<String, byte[]> map = getPkeyMap();
-                byte[] privatekey = map.get(key);
-                if (privatekey != null) {
-                    Log.d(TAG, "found matched key: " + privatekey);
-                    map.remove(key);
-                    savePkeyMap(map);
-
-                    mCredentials.setPrivateKey(privatekey);
-                } else {
-                    Log.d(TAG, "didn't find matched private key: " + key);
-                }
-            }
-            nameCredential();
+            return;
         }
+
+        nameCredential();
     }
 
     private void sendUnlockKeyStoreIntent() {
@@ -285,38 +276,6 @@ public class CertInstaller extends Activity {
         } else {
             showDialog(NAME_CREDENTIAL_DIALOG);
         }
-    }
-
-    private void saveKeyPair() {
-        byte[] privatekey = mCredentials.getData(Credentials.EXTRA_PRIVATE_KEY);
-        String key = Util.toMd5(mCredentials.getData(Credentials.EXTRA_PUBLIC_KEY));
-        Map<String, byte[]> map = getPkeyMap();
-        map.put(key, privatekey);
-        savePkeyMap(map);
-        Log.d(TAG, "save privatekey: " + key + " --> #keys:" + map.size());
-    }
-
-    private void savePkeyMap(Map<String, byte[]> map) {
-        if (map.isEmpty()) {
-            if (!mKeyStore.delete(PKEY_MAP_KEY)) {
-                Log.w(TAG, "savePkeyMap(): failed to delete pkey map");
-            }
-            return;
-        }
-        byte[] bytes = Util.toBytes(map);
-        if (!mKeyStore.put(PKEY_MAP_KEY, bytes, KeyStore.UID_SELF, KeyStore.FLAG_ENCRYPTED)) {
-            Log.w(TAG, "savePkeyMap(): failed to write pkey map");
-        }
-    }
-
-    private Map<String, byte[]> getPkeyMap() {
-        byte[] bytes = mKeyStore.get(PKEY_MAP_KEY);
-        if (bytes != null) {
-            Map<String, byte[]> map =
-                    (Map<String, byte[]>) Util.fromBytes(bytes);
-            if (map != null) return map;
-        }
-        return new MyMap();
     }
 
     void extractPkcs12InBackground(final String password) {
