@@ -38,6 +38,10 @@
     <string name="cert_not_saved" msgid="4037698479662830270">"സർട്ടിഫിക്കറ്റ് ഇൻസ്‌റ്റാൾ ചെയ്‌തില്ല."</string>
     <string name="no_cert_to_saved" msgid="5708884372817309068">"ഇൻസ്‌റ്റാൾ ചെയ്യുന്നതിന് സർട്ടിഫിക്കറ്റ് ഒന്നുമില്ല."</string>
     <string name="invalid_cert" msgid="7704228670980743590">"സർട്ടിഫിക്കറ്റ് അസാധുവാണ്."</string>
+    <!-- no translation found for action_missing_private_key (7543470057312920042) -->
+    <skip />
+    <!-- no translation found for action_missing_user_cert (3727411730202316771) -->
+    <skip />
     <string name="cert_is_added" msgid="6996557598167000500">"<xliff:g id="CREDENTIAL">%s</xliff:g> ഇൻസ്‌റ്റാൾ ചെയ്‌തു."</string>
     <string name="cert_too_large_error" msgid="8715414972725646285">"സർട്ടിഫിക്കറ്റ് വലുപ്പം വളരെ വലുതായതിനാൽ ഇൻസ്റ്റാളുചെയ്യാനായില്ല."</string>
     <string name="cert_missing_error" msgid="7040527352278728220">"സർട്ടിഫിക്കറ്റ് ഫയൽ കണ്ടെത്താൻ കഴിയാത്തതിനാൽ ഇൻസ്റ്റാളുചെയ്യാനായില്ല."</string>
