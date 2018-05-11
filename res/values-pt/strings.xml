@@ -38,6 +38,10 @@
     <string name="cert_not_saved" msgid="4037698479662830270">"O certificado não está instalado."</string>
     <string name="no_cert_to_saved" msgid="5708884372817309068">"Não há certificado para instalar."</string>
     <string name="invalid_cert" msgid="7704228670980743590">"O certificado é inválido."</string>
+    <!-- no translation found for action_missing_private_key (7543470057312920042) -->
+    <skip />
+    <!-- no translation found for action_missing_user_cert (3727411730202316771) -->
+    <skip />
     <string name="cert_is_added" msgid="6996557598167000500">"A <xliff:g id="CREDENTIAL">%s</xliff:g> está instalada"</string>
     <string name="cert_too_large_error" msgid="8715414972725646285">"Não foi possível concluir a instalação, pois o tamanho do certificado é muito grande."</string>
     <string name="cert_missing_error" msgid="7040527352278728220">"A instalação não pôde ser concluída, pois não foi possível localizar o arquivo do certificado."</string>

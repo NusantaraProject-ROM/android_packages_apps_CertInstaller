@@ -38,6 +38,10 @@
     <string name="cert_not_saved" msgid="4037698479662830270">"সার্টিফিকেট ইনস্টল করা হয়নি৷"</string>
     <string name="no_cert_to_saved" msgid="5708884372817309068">"ইনস্টল করার জন্য কোনও সার্টিফিকেট নেই৷"</string>
     <string name="invalid_cert" msgid="7704228670980743590">"শংসাপত্রটি বৈধ নয়৷"</string>
+    <!-- no translation found for action_missing_private_key (7543470057312920042) -->
+    <skip />
+    <!-- no translation found for action_missing_user_cert (3727411730202316771) -->
+    <skip />
     <string name="cert_is_added" msgid="6996557598167000500">"<xliff:g id="CREDENTIAL">%s</xliff:g> ইনস্টল হয়েছে৷"</string>
     <string name="cert_too_large_error" msgid="8715414972725646285">"শংসাপত্রের আকার খুব বেশি বড় হওয়ায় ইনস্টল করা যায়নি৷"</string>
     <string name="cert_missing_error" msgid="7040527352278728220">"সার্টিফিকেট ফাইলটি খুঁজে না পাওয়ায় ইনস্টল করা যায়নি৷"</string>
