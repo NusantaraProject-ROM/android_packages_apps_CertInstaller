@@ -38,10 +38,8 @@
     <string name="cert_not_saved" msgid="4037698479662830270">"El certificat no està instal·lat."</string>
     <string name="no_cert_to_saved" msgid="5708884372817309068">"No hi ha cap certificat per instal·lar."</string>
     <string name="invalid_cert" msgid="7704228670980743590">"El certificat no és vàlid."</string>
-    <!-- no translation found for action_missing_private_key (7543470057312920042) -->
-    <skip />
-    <!-- no translation found for action_missing_user_cert (3727411730202316771) -->
-    <skip />
+    <string name="action_missing_private_key" msgid="7543470057312920042">"Per instal·lar un certificat es requereix una clau privada"</string>
+    <string name="action_missing_user_cert" msgid="3727411730202316771">"Per instal·lar una clau privada es requereix un certificat"</string>
     <string name="cert_is_added" msgid="6996557598167000500">"S\'ha instal·lat <xliff:g id="CREDENTIAL">%s</xliff:g>."</string>
     <string name="cert_too_large_error" msgid="8715414972725646285">"No s\'ha pogut instal·lar perquè la mida del certificat és massa gran."</string>
     <string name="cert_missing_error" msgid="7040527352278728220">"No s\'ha pogut instal·lar perquè el fitxer de certificat no s\'ha pogut ubicar."</string>

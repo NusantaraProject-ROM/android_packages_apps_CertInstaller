@@ -38,10 +38,8 @@
     <string name="cert_not_saved" msgid="4037698479662830270">"Sertifikatas neįdiegtas."</string>
     <string name="no_cert_to_saved" msgid="5708884372817309068">"Nėra diegiamo sertifikato."</string>
     <string name="invalid_cert" msgid="7704228670980743590">"Sertifikatas negalioja."</string>
-    <!-- no translation found for action_missing_private_key (7543470057312920042) -->
-    <skip />
-    <!-- no translation found for action_missing_user_cert (3727411730202316771) -->
-    <skip />
+    <string name="action_missing_private_key" msgid="7543470057312920042">"Norint įdiegti sertifikatą būtinas privatus raktas"</string>
+    <string name="action_missing_user_cert" msgid="3727411730202316771">"Norint įdiegti privatų raktą būtinas sertifikatas"</string>
     <string name="cert_is_added" msgid="6996557598167000500">"<xliff:g id="CREDENTIAL">%s</xliff:g> įdiegtas."</string>
     <string name="cert_too_large_error" msgid="8715414972725646285">"Nepavyko įdiegti, nes sertifikatas per didelis."</string>
     <string name="cert_missing_error" msgid="7040527352278728220">"Nepavyko įdiegti, nes nepavyko rasti sertifikato failo."</string>

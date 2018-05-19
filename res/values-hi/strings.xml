@@ -38,10 +38,8 @@
     <string name="cert_not_saved" msgid="4037698479662830270">"प्रमाणपत्र इंस्‍टॉल नहीं हुआ."</string>
     <string name="no_cert_to_saved" msgid="5708884372817309068">"इंस्‍टॉल करने के लिए कोई प्रमाणपत्र नहीं है."</string>
     <string name="invalid_cert" msgid="7704228670980743590">"प्रमाणपत्र अमान्य है."</string>
-    <!-- no translation found for action_missing_private_key (7543470057312920042) -->
-    <skip />
-    <!-- no translation found for action_missing_user_cert (3727411730202316771) -->
-    <skip />
+    <string name="action_missing_private_key" msgid="7543470057312920042">"प्रमाणपत्र इंस्टॉल करने के लिए निजी कुंजी ज़रूरी है"</string>
+    <string name="action_missing_user_cert" msgid="3727411730202316771">"निजी कुंजी इंस्टॉल करने के लिए प्रमाणपत्र ज़रूरी है"</string>
     <string name="cert_is_added" msgid="6996557598167000500">"<xliff:g id="CREDENTIAL">%s</xliff:g> इंस्‍टॉल किया हुआ है."</string>
     <string name="cert_too_large_error" msgid="8715414972725646285">"प्रमाणपत्र का आकार बहुत बड़ा होने के कारण इंस्‍टॉल नहीं कर सका."</string>
     <string name="cert_missing_error" msgid="7040527352278728220">"प्रमाणपत्र फ़ाइल नहीं मिल सकने के ‍कारण इंस्टॉल नहीं कर सका."</string>

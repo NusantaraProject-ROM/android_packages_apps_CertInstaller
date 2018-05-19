@@ -38,10 +38,8 @@
     <string name="cert_not_saved" msgid="4037698479662830270">"ସର୍ଟିଫିକେଟ୍‌ଟି ଇନଷ୍ଟଲ୍‌ ହୋଇନାହିଁ।"</string>
     <string name="no_cert_to_saved" msgid="5708884372817309068">"ଇନଷ୍ଟଲ୍‌ କରାଯିବାକୁ କୌଣସି ସର୍ଟିଫିକେଟ୍‍ ନାହିଁ।"</string>
     <string name="invalid_cert" msgid="7704228670980743590">"ଏହି ସର୍ଟିଫିକେଟ୍‍ ବୈଧ ନୁହେଁ।"</string>
-    <!-- no translation found for action_missing_private_key (7543470057312920042) -->
-    <skip />
-    <!-- no translation found for action_missing_user_cert (3727411730202316771) -->
-    <skip />
+    <string name="action_missing_private_key" msgid="7543470057312920042">"ଗୋଟିଏ ସର୍ଟିଫିକେଟ୍‍କୁ ଇନଷ୍ଟଲ୍ କରିବା ପାଇଁ ବ୍ୟକ୍ତିଗତ କୀ\' ଆବଶ୍ୟକ"</string>
+    <string name="action_missing_user_cert" msgid="3727411730202316771">"ଗୋଟିଏ ବ୍ୟକ୍ତିଗତ କୀ’କୁ ଇନଷ୍ଟଲ୍ କରିବା ପାଇଁ ସର୍ଟିଫିକେଟ୍ ଆବଶ୍ୟକ"</string>
     <string name="cert_is_added" msgid="6996557598167000500">"<xliff:g id="CREDENTIAL">%s</xliff:g> ଇନଷ୍ଟଲ୍‌ ହୋଇଛି।"</string>
     <string name="cert_too_large_error" msgid="8715414972725646285">"ଇନଷ୍ଟଲ୍‌ କରିହେଉନାହିଁ, କାରଣ ସର୍ଟିଫିକେଟ୍‌ର ଆକାର ବହୁତ ବଡ଼ ଅଟେ।"</string>
     <string name="cert_missing_error" msgid="7040527352278728220">"ଇନଷ୍ଟଲ୍‌ କରିହେଉନାହିଁ, କାରଣ ସର୍ଟିଫିକେଟ୍‌ ଫାଇଲ୍‍ ମିଳୁନାହିଁ।"</string>

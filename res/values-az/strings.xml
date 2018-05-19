@@ -38,10 +38,8 @@
     <string name="cert_not_saved" msgid="4037698479662830270">"Sertifikat qurulmayıb."</string>
     <string name="no_cert_to_saved" msgid="5708884372817309068">"Yükləmək üçün sertifikat yoxdur."</string>
     <string name="invalid_cert" msgid="7704228670980743590">"Sertifikat yanlışdır."</string>
-    <!-- no translation found for action_missing_private_key (7543470057312920042) -->
-    <skip />
-    <!-- no translation found for action_missing_user_cert (3727411730202316771) -->
-    <skip />
+    <string name="action_missing_private_key" msgid="7543470057312920042">"Sertifikatı quraşdırmaq üçün şəxsi açar tələb olunur"</string>
+    <string name="action_missing_user_cert" msgid="3727411730202316771">"Şəxsi açarı quraşdırmaq üçün sertifikat tələb olunur"</string>
     <string name="cert_is_added" msgid="6996557598167000500">"<xliff:g id="CREDENTIAL">%s</xliff:g> quraşdırılıb."</string>
     <string name="cert_too_large_error" msgid="8715414972725646285">"Sertifikat ölçüsü çox böyük olduğu üçün yüklənə bilmədi."</string>
     <string name="cert_missing_error" msgid="7040527352278728220">"Quraşdırmaq mümkün olmadı, çünki sertifikat faylını tapmaq mümkün deyil."</string>
