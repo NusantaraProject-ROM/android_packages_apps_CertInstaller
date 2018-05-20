@@ -38,10 +38,8 @@
     <string name="cert_not_saved" msgid="4037698479662830270">"Certifikat nije instaliran."</string>
     <string name="no_cert_to_saved" msgid="5708884372817309068">"Nema certifikata za instalaciju."</string>
     <string name="invalid_cert" msgid="7704228670980743590">"Certifikat je nevažeći."</string>
-    <!-- no translation found for action_missing_private_key (7543470057312920042) -->
-    <skip />
-    <!-- no translation found for action_missing_user_cert (3727411730202316771) -->
-    <skip />
+    <string name="action_missing_private_key" msgid="7543470057312920042">"Za instalaciju potvrde potreban je privatni ključ"</string>
+    <string name="action_missing_user_cert" msgid="3727411730202316771">"Za instalaciju privatnog ključa potrebna je potvrda"</string>
     <string name="cert_is_added" msgid="6996557598167000500">"Certifikat <xliff:g id="CREDENTIAL">%s</xliff:g> je instaliran."</string>
     <string name="cert_too_large_error" msgid="8715414972725646285">"Instalacija je prekinuta jer je certifikat prevelik."</string>
     <string name="cert_missing_error" msgid="7040527352278728220">"Instalacija je prekinuta jer fajl u kojem je pohranjen certifikat nije pronađen."</string>
