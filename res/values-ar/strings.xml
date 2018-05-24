@@ -70,7 +70,7 @@
     <string name="install_done" msgid="1522718684172097080">"‏تمت إضافة بيانات اعتماد <xliff:g id="NAME">%1$s</xliff:g> إلى شبكات Wi-Fi المحفوظة."</string>
     <string name="done_label" msgid="5597425930652904250">"تم"</string>
     <string name="wifi_installer_detail" msgid="63879632832701669">"‏تثبيت بيانات اعتماد Wi-Fi للاتصال بالشبكات المتاحة عبر <xliff:g id="NAME">%1$s</xliff:g>."</string>
-    <string name="wifi_installer_download_error" msgid="5429453090956277692">"الملف الذي تم تنزيله يحتوي على مشكلات ولا يمكن تثبيته. تأكد من تنزيل الملف من المصدر الصحيح."</string>
+    <string name="wifi_installer_download_error" msgid="5429453090956277692">"الملف الذي تم تنزيله يحتوي على مشاكل ولا يمكن تثبيته. تأكد من تنزيل الملف من المصدر الصحيح."</string>
     <string name="wifi_installer_fail" msgid="894483173306576331">"‏يتعذر تثبيت بيانات اعتماد Wi-Fi. يمكنك تجربة تنزيل الملف مرة أخرى."</string>
     <string name="wifi_installer_fail_no_wifi_title" msgid="8358191074828840533">"تم إلغاء التثبيت"</string>
     <string name="wifi_installer_fail_title" msgid="5547079779067835479">"يتعذر التثبيت"</string>
