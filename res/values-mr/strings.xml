@@ -76,5 +76,5 @@
     <string name="wifi_installer_fail" msgid="894483173306576331">"वाय-फाय क्रेडेंशियल इंस्टॉल करू शकत नाही. फाईल डाउनलोड करण्‍याचा पुन्हा प्रयत्न करा."</string>
     <string name="wifi_installer_fail_no_wifi_title" msgid="8358191074828840533">"इंस्टॉल करणे रद्द झाले"</string>
     <string name="wifi_installer_fail_title" msgid="5547079779067835479">"इंस्टॉल करू शकत नाही"</string>
-    <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"Wi-Fi चालू करा आणि पुन्हा प्रयत्न करा."</string>
+    <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"वाय-फाय चालू करा आणि पुन्हा प्रयत्न करा."</string>
 </resources>
