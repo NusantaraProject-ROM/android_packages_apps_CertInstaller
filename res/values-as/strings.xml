@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="9095072584761066851">"প্ৰমাণপত্ৰ ইনষ্টলাৰ"</string>
+    <string name="pick_file_title" msgid="4481949485108233297">"এখন প্ৰমাণপত্ৰ বাছনি কৰক"</string>
+    <string name="pkcs12_password_dialog_title" msgid="5997624645207427161">"প্ৰমাণপত্ৰ উলিয়াওক"</string>
+    <string name="extracting_pkcs12" msgid="1881267738821799771">"উলিয়াই থকা হৈছে…"</string>
+    <string name="pkcs12_file_password_dialog_title" msgid="8102721384767269510">"%sৰ পৰা উলিয়াওক"</string>
+    <string name="name_credential_dialog_title" msgid="277729846491554437">"প্ৰমাণপত্ৰক নাম দিয়ক"</string>
+    <string name="credential_name" msgid="1974979771369744378">"প্ৰমাণপত্ৰৰ নাম:"</string>
+    <string name="credential_password" msgid="3520176519550993326">"প্ৰমাণপত্ৰসমূহ উলিয়াবৰ বাবে পাছৱৰ্ডটো লিখক।"</string>
+    <string name="credential_info" msgid="2436768402308470397">"পেকেজত এইবোৰ বস্তু আছে:"</string>
+    <string name="p12_description" msgid="4128352087331630024">"PKCS12 কীষ্ট’ৰৰ প্ৰমাণপত্ৰবোৰ৷"</string>
+    <string name="one_userkey" msgid="3500697912370644881">"এটা ব্যৱহাৰকাৰীৰ কী"</string>
+    <string name="one_usercrt" msgid="7690798336332403106">"এজন ব্যৱহাৰকাৰী থকা প্ৰমাণপত্ৰ"</string>
+    <string name="one_cacrt" msgid="2667950425420663146">"এখন চিএ প্ৰমাণপত্ৰ"</string>
+    <string name="n_cacrts" msgid="2141498640685639208">"%d চিএ প্ৰমাণপত্ৰবোৰ"</string>
+    <string name="password_error" msgid="2042471639556516356">"শুদ্ধ পাছৱৰ্ডটো লিখক।"</string>
+    <string name="password_empty_error" msgid="591713406761723025">"পাছৱৰ্ডটো লিখক।"</string>
+    <string name="name_empty_error" msgid="3808800768660110354">"এটা নাম লিখক।"</string>
+    <string name="name_char_error" msgid="3176618568784938968">"কেৱল আখৰ আৰু সংখ্যা থকা এটা নামহে লিখক৷"</string>
+    <string name="unable_to_save_cert" msgid="9178604087335389686">"প্ৰমাণপত্ৰ ছেভ কৰিব পৰা নগ\'ল৷ ক্ৰেডেনশ্বিয়েল সঞ্চয়াগাৰ সক্ষম হোৱা নাই বা সঠিকভাৱে আৰম্ভ কৰা হোৱা নাই।"</string>
+    <string name="cert_not_saved" msgid="4037698479662830270">"প্ৰমাণপত্ৰ ইনষ্টল কৰা হোৱা নাই।"</string>
+    <string name="no_cert_to_saved" msgid="5708884372817309068">"ইনষ্টল কৰিবলৈ কোনো প্ৰমাণপত্ৰ নাই।"</string>
+    <string name="invalid_cert" msgid="7704228670980743590">"এই প্ৰমাণপত্ৰখন মান্য নহয়।"</string>
+    <string name="cert_is_added" msgid="6996557598167000500">"<xliff:g id="CREDENTIAL">%s</xliff:g> ইনষ্টল কৰা হৈছে।"</string>
+    <string name="cert_too_large_error" msgid="8715414972725646285">"প্ৰমাণপত্ৰৰ আকাৰ অতি বৃহৎ হোৱাৰ বাবে ইনষ্টল কৰিব পৰা নগ\'ল।"</string>
+    <string name="cert_missing_error" msgid="7040527352278728220">"প্ৰমাণপত্ৰ ফাইল নোপোৱাৰ বাবে ইনষ্টল কৰিব পৰা নগ\'ল।"</string>
+    <string name="cert_read_error" msgid="7353463360652419796">"প্ৰমাণপত্ৰ ফাইল পঢ়িব নোৱাৰাৰ বাবে ইনষ্টল কৰিব পৰা নগ\'ল।"</string>
+    <string name="no_cert_file_found" product="nosdcard" msgid="3555332946357131929">"ইউএছবি সঞ্চয়াগাৰত প্ৰমাণপত্ৰৰ কোনো ফাইল পোৱা নগ\'ল।"</string>
+    <string name="no_cert_file_found" product="default" msgid="1942077544887243999">"এছডি কাৰ্ডত প্ৰমাণপত্ৰৰ কোনো ফাইল পোৱা নগ\'ল।"</string>
+    <string name="sdcard_not_present" product="nosdcard" msgid="9197143240492611196">"ইউএছবি সঞ্চয়াগাৰ উপলব্ধ নহয়।"</string>
+    <string name="sdcard_not_present" product="default" msgid="3866952732541932947">"এছডি কাৰ্ড মজুত নাই।"</string>
+    <string name="only_primary_user_allowed" msgid="4005084935023047716">"এই ডিভাইচৰ গৰাকীয়েহে প্ৰমাণপত্ৰসমূহ ইনষ্টল কৰিব পাৰে৷"</string>
+    <string name="credential_usage_label" msgid="1513892208033156805">"প্ৰমাণপত্ৰৰ ব্যৱহাৰ:"</string>
+  <string-array name="credential_usage">
+    <item msgid="375085478373011304">"ভিপিএন আৰু এপসমূহ"</item>
+    <item msgid="692322974985472861">"ৱাই-ফাই"</item>
+  </string-array>
+    <!-- no translation found for wifi_title (8475811746333426489) -->
+    <skip />
+    <!-- no translation found for wifi_detail_title (3627332137252994395) -->
+    <skip />
+    <!-- no translation found for wifi_detail_label (3032151019356747583) -->
+    <skip />
+    <!-- no translation found for wifi_install_label (1449629407724323233) -->
+    <skip />
+    <!-- no translation found for wifi_installing_label (8387393993627129025) -->
+    <skip />
+    <!-- no translation found for wifi_cancel_label (1328748037608392134) -->
+    <skip />
+    <!-- no translation found for wifi_dismiss_label (1916684434873972698) -->
+    <skip />
+    <!-- no translation found for wifi_no_config (1835743123288916755) -->
+    <skip />
+    <!-- no translation found for wifi_config_text (8259587306773310314) -->
+    <skip />
+    <!-- no translation found for wifi_ttls_config_text (2002413183253872168) -->
+    <skip />
+    <!-- no translation found for wifi_tls_config_text (9062328536640168510) -->
+    <skip />
+    <!-- no translation found for wifi_sim_config_text (1666019954520831840) -->
+    <skip />
+    <!-- no translation found for wifi_trust_config_text (5916047381475747783) -->
+    <skip />
+    <!-- no translation found for install_done_title (4822989918460334497) -->
+    <skip />
+    <!-- no translation found for install_done (1522718684172097080) -->
+    <skip />
+    <!-- no translation found for done_label (5597425930652904250) -->
+    <skip />
+    <!-- no translation found for wifi_installer_detail (63879632832701669) -->
+    <skip />
+    <!-- no translation found for wifi_installer_download_error (5429453090956277692) -->
+    <skip />
+    <!-- no translation found for wifi_installer_fail (894483173306576331) -->
+    <skip />
+    <!-- no translation found for wifi_installer_fail_no_wifi_title (8358191074828840533) -->
+    <skip />
+    <!-- no translation found for wifi_installer_fail_title (5547079779067835479) -->
+    <skip />
+    <!-- no translation found for wifi_installer_fail_no_wifi (2044576439984209921) -->
+    <skip />
+</resources>
