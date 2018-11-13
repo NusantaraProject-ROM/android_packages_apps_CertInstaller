@@ -4,9 +4,9 @@
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-  
+
           http://www.apache.org/licenses/LICENSE-2.0
-  
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -44,10 +44,6 @@
     <string name="cert_too_large_error" msgid="8715414972725646285">"憑證大小超過上限，因此無法安裝。"</string>
     <string name="cert_missing_error" msgid="7040527352278728220">"找不到憑證檔案，因此無法安裝。"</string>
     <string name="cert_read_error" msgid="7353463360652419796">"憑證檔案無法讀取，因此無法安裝。"</string>
-    <string name="no_cert_file_found" product="nosdcard" msgid="3555332946357131929">"在 USB 儲存裝置中找不到憑證檔案。"</string>
-    <string name="no_cert_file_found" product="default" msgid="1942077544887243999">"在 SD 卡上找不到憑證檔案。"</string>
-    <string name="sdcard_not_present" product="nosdcard" msgid="9197143240492611196">"沒有可用的 USB 儲存裝置。"</string>
-    <string name="sdcard_not_present" product="default" msgid="3866952732541932947">"找不到 SD 記憶卡。"</string>
     <string name="only_primary_user_allowed" msgid="4005084935023047716">"只有這部裝置的擁有者可以安裝憑證。"</string>
     <string name="credential_usage_label" msgid="1513892208033156805">"憑證用途："</string>
   <string-array name="credential_usage">
