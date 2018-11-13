@@ -4,9 +4,9 @@
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-  
+
           http://www.apache.org/licenses/LICENSE-2.0
-  
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -44,10 +44,6 @@
     <string name="cert_too_large_error" msgid="8715414972725646285">"Kunne ikke installere fordi sertifikatet er for stort."</string>
     <string name="cert_missing_error" msgid="7040527352278728220">"Kunne ikke installere fordi sertifikatfilen ikke ble funnet."</string>
     <string name="cert_read_error" msgid="7353463360652419796">"Kunne ikke installere fordi sertifikatfilen ikke kunne leses."</string>
-    <string name="no_cert_file_found" product="nosdcard" msgid="3555332946357131929">"Finner ingen sertifikatfil på USB-lagringsenheten."</string>
-    <string name="no_cert_file_found" product="default" msgid="1942077544887243999">"Fant ingen sertifikatfil på minnekortet."</string>
-    <string name="sdcard_not_present" product="nosdcard" msgid="9197143240492611196">"USB-lagring ikke tilgjengelig."</string>
-    <string name="sdcard_not_present" product="default" msgid="3866952732541932947">"Finner ikke SD-kort."</string>
     <string name="only_primary_user_allowed" msgid="4005084935023047716">"Bare eieren av denne enheten kan installere sertifikater."</string>
     <string name="credential_usage_label" msgid="1513892208033156805">"Bruk av legitimasjon:"</string>
   <string-array name="credential_usage">
