@@ -66,13 +66,13 @@
     <string name="wifi_tls_config_text" msgid="9062328536640168510">"ক্লায়েণ্টৰ প্ৰমাণপত্ৰ:\n%1$s\nকী: %2$s\n"</string>
     <string name="wifi_sim_config_text" msgid="1666019954520831840">"ছিম: %s\n"</string>
     <string name="wifi_trust_config_text" msgid="5916047381475747783">"প্ৰমাণপত্ৰখনক বিশ্বাস কৰক:\n%s\n"</string>
-    <string name="install_done_title" msgid="4822989918460334497">"ক্ৰেডেনশ্বিয়েলসমূহ ইনষ্টল কৰা হ\'ল"</string>
-    <string name="install_done" msgid="1522718684172097080">"<xliff:g id="NAME">%1$s</xliff:g>ৰ ক্ৰেডেনশ্বিয়েলসমূহ ৱাই-ফাইয়ে ছেভ কৰা নেটৱৰ্কসমূহত যোগ দিয়া হ\'ল।"</string>
-    <string name="done_label" msgid="5597425930652904250">"সম্পন্ন কৰা হ\'ল"</string>
+    <string name="install_done_title" msgid="4822989918460334497">"ক্ৰেডেনশ্বিয়েলসমূহ ইনষ্টল কৰা হ’ল"</string>
+    <string name="install_done" msgid="1522718684172097080">"<xliff:g id="NAME">%1$s</xliff:g>ৰ ক্ৰেডেনশ্বিয়েলসমূহ ৱাই-ফাইয়ে ছেভ কৰা নেটৱৰ্কসমূহত যোগ দিয়া হ’ল।"</string>
+    <string name="done_label" msgid="5597425930652904250">"সম্পন্ন কৰা হ’ল"</string>
     <string name="wifi_installer_detail" msgid="63879632832701669">"<xliff:g id="NAME">%1$s</xliff:g>ৰ যোগেৰে উপলব্ধ নেটৱর্কসমূহৰ সৈতে সংযোগ কৰিবলৈ ৱাই-ফাইৰ ক্ৰেডেনশ্বিয়েলসমূহ ইনষ্টল কৰক।"</string>
-    <string name="wifi_installer_download_error" msgid="5429453090956277692">"ডাউনল\'ড কৰা ফাইলটোত সমস্য়া আছে আৰু ইয়াক ইনষ্টল কৰিব নোৱাৰি। আপুনি সঠিক উৎসৰ পৰা ফাইলটো ডাউনল\'ড কৰিছিলনে সুনিশ্চিত কৰক।"</string>
-    <string name="wifi_installer_fail" msgid="894483173306576331">"ৱাই-ফাইৰ ক্ৰেডেনশ্বিয়েলসমূহ ইনষ্টল কৰিব নোৱাৰি। ফাইলটো আকৌ ডাউনল\'ড কৰিবলৈ চেষ্টা কৰক।"</string>
-    <string name="wifi_installer_fail_no_wifi_title" msgid="8358191074828840533">"ইনষ্টলেশ্বন বাতিল কৰা হ\'ল"</string>
+    <string name="wifi_installer_download_error" msgid="5429453090956277692">"ডাউনল’ড কৰা ফাইলটোত সমস্য়া আছে আৰু ইয়াক ইনষ্টল কৰিব নোৱাৰি। আপুনি সঠিক উৎসৰ পৰা ফাইলটো ডাউনল’ড কৰিছিলনে সুনিশ্চিত কৰক।"</string>
+    <string name="wifi_installer_fail" msgid="894483173306576331">"ৱাই-ফাইৰ ক্ৰেডেনশ্বিয়েলসমূহ ইনষ্টল কৰিব নোৱাৰি। ফাইলটো আকৌ ডাউনল’ড কৰিবলৈ চেষ্টা কৰক।"</string>
+    <string name="wifi_installer_fail_no_wifi_title" msgid="8358191074828840533">"ইনষ্টলেশ্বন বাতিল কৰা হ’ল"</string>
     <string name="wifi_installer_fail_title" msgid="5547079779067835479">"ইনষ্টল কৰিব নোৱাৰি"</string>
     <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"ৱাই-ফাই অন কৰি আকৌ চেষ্টা কৰক।"</string>
 </resources>
