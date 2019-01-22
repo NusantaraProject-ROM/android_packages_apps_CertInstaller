@@ -62,7 +62,6 @@ public class CertInstaller extends Activity {
     private static final int PROGRESS_BAR_DIALOG = 3;
 
     private static final int REQUEST_SYSTEM_INSTALL_CODE = 1;
-    private static final int REQUEST_CONFIRM_CREDENTIALS = 2;
 
     // key to states Bundle
     private static final String NEXT_ACTION_KEY = "na";
@@ -74,7 +73,6 @@ public class CertInstaller extends Activity {
     private static final int USAGE_TYPE_SYSTEM = 0;
     private static final int USAGE_TYPE_WIFI = 1;
 
-    private final KeyStore mKeyStore = KeyStore.getInstance();
     private final ViewHelper mView = new ViewHelper();
 
     private int mState;
@@ -105,20 +103,14 @@ public class CertInstaller extends Activity {
                 finish();
             } else {
                 if (mCredentials.hasCaCerts()) {
-                    KeyguardManager keyguardManager = getSystemService(KeyguardManager.class);
-                    Intent intent = keyguardManager.createConfirmDeviceCredentialIntent(null, null);
-                    if (intent == null) { // No screenlock
-                        onScreenlockOk();
-                    } else {
-                        startActivityForResult(intent, REQUEST_CONFIRM_CREDENTIALS);
-                    }
+                    extractPkcs12OrInstall();
                 } else {
                     if (mCredentials.hasUserCertificate() && !mCredentials.hasPrivateKey()) {
                         toastErrorAndFinish(R.string.action_missing_private_key);
                     } else if (mCredentials.hasPrivateKey() && !mCredentials.hasUserCertificate()) {
                         toastErrorAndFinish(R.string.action_missing_user_cert);
                     } else {
-                        onScreenlockOk();
+                        extractPkcs12OrInstall();
                     }
                 }
             }
@@ -140,11 +132,6 @@ public class CertInstaller extends Activity {
                 mNextAction.run(this);
             }
         }
-    }
-
-    private boolean needsKeyStoreAccess() {
-        return ((mCredentials.hasPrivateKey() || mCredentials.hasUserCertificate())
-                && !mKeyStore.isUnlocked());
     }
 
     @Override
@@ -185,35 +172,32 @@ public class CertInstaller extends Activity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == REQUEST_SYSTEM_INSTALL_CODE) {
-            if (resultCode == RESULT_OK) {
-                Log.d(TAG, "credential is added: " + mCredentials.getName());
-                Toast.makeText(this, getString(R.string.cert_is_added, mCredentials.getName()),
-                        Toast.LENGTH_LONG).show();
-
-                if (mCredentials.includesVpnAndAppsTrustAnchors()) {
-                    // more work to do, don't finish just yet
-                    new InstallVpnAndAppsTrustAnchorsTask().execute();
-                    return;
-                }
-                setResult(RESULT_OK);
-            } else {
-                Log.d(TAG, "credential not saved, err: " + resultCode);
-                toastErrorAndFinish(R.string.cert_not_saved);
-            }
-        } else if (requestCode == REQUEST_CONFIRM_CREDENTIALS) {
-            if (resultCode == RESULT_OK) {
-                onScreenlockOk();
-                return;
-            }
-            // Fail to confirm credentials. Let it finish
-        } else {
+        if (requestCode != REQUEST_SYSTEM_INSTALL_CODE) {
             Log.w(TAG, "unknown request code: " + requestCode);
+            finish();
+            return;
         }
+
+        if (resultCode != RESULT_OK) {
+            Log.d(TAG, "credential not saved, err: " + resultCode);
+            toastErrorAndFinish(R.string.cert_not_saved);
+            return;
+        }
+
+        Log.d(TAG, "credential is added: " + mCredentials.getName());
+        Toast.makeText(this, getString(R.string.cert_is_added, mCredentials.getName()),
+                Toast.LENGTH_LONG).show();
+
+        if (mCredentials.includesVpnAndAppsTrustAnchors()) {
+            // more work to do, don't finish just yet
+            new InstallVpnAndAppsTrustAnchorsTask().execute();
+            return;
+        }
+        setResult(RESULT_OK);
         finish();
     }
 
-    private void onScreenlockOk() {
+    private void extractPkcs12OrInstall() {
         if (mCredentials.hasPkcs12KeyStore()) {
             if (mCredentials.hasPassword()) {
                 showDialog(PKCS12_PASSWORD_DIALOG);
@@ -222,12 +206,7 @@ public class CertInstaller extends Activity {
             }
         } else {
             MyAction action = new InstallOthersAction();
-            if (needsKeyStoreAccess()) {
-                sendUnlockKeyStoreIntent();
-                mNextAction = action;
-            } else {
-                action.run(this);
-            }
+            action.run(this);
         }
     }
 
@@ -264,10 +243,6 @@ public class CertInstaller extends Activity {
         }
 
         nameCredential();
-    }
-
-    private void sendUnlockKeyStoreIntent() {
-        Credentials.getInstance().unlock(this);
     }
 
     private void nameCredential() {
