@@ -236,8 +236,17 @@ public class CertInstaller extends Activity {
     }
 
     void installOthers() {
-        // Sanity check
-        if (!(mCredentials.hasPrivateKey() && mCredentials.hasUserCertificate())) {
+        // Sanity check: Check that there's either:
+        // * A private key AND a user certificate, or
+        // * A CA cert.
+        boolean hasPrivateKeyAndUserCertificate =
+                mCredentials.hasPrivateKey() && mCredentials.hasUserCertificate();
+        boolean hasCaCertificate = mCredentials.hasCaCerts();
+        Log.d(TAG,
+                String.format(
+                        "Attempting credentials installation, has ca cert? %b, has user cert? %b",
+                        hasCaCertificate, hasPrivateKeyAndUserCertificate));
+        if (!(hasPrivateKeyAndUserCertificate || hasCaCertificate)) {
             finish();
             return;
         }
