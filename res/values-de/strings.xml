@@ -74,5 +74,5 @@
     <string name="wifi_installer_fail" msgid="894483173306576331">"Die WLAN-Anmeldedaten können nicht installiert werden. Lade die Datei erneut herunter."</string>
     <string name="wifi_installer_fail_no_wifi_title" msgid="8358191074828840533">"Installation abgebrochen"</string>
     <string name="wifi_installer_fail_title" msgid="5547079779067835479">"Installation nicht möglich"</string>
-    <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"Aktiviere WLAN und versuche es erneut."</string>
+    <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"Aktiviere WLAN und versuche es noch einmal."</string>
 </resources>
