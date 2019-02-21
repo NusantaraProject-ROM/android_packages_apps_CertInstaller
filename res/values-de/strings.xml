@@ -52,7 +52,6 @@
     <item msgid="375085478373011304">"VPN und Apps"</item>
     <item msgid="692322974985472861">"WLAN"</item>
   </string-array>
-    <string name="certificate_capabilities_warning" msgid="4158609401937799110">"Hinweis: Der Aussteller dieses Zertifikats prüft unter Umständen den gesamten Traffic zum und ausgehend vom Gerät."</string>
     <string name="wifi_title" msgid="8475811746333426489">"WLAN-Profile"</string>
     <string name="wifi_detail_title" msgid="3627332137252994395">"Details für %s"</string>
     <string name="wifi_detail_label" msgid="3032151019356747583">"Details"</string>
@@ -74,5 +73,5 @@
     <string name="wifi_installer_fail" msgid="894483173306576331">"Die WLAN-Anmeldedaten können nicht installiert werden. Lade die Datei erneut herunter."</string>
     <string name="wifi_installer_fail_no_wifi_title" msgid="8358191074828840533">"Installation abgebrochen"</string>
     <string name="wifi_installer_fail_title" msgid="5547079779067835479">"Installation nicht möglich"</string>
-    <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"Aktiviere WLAN und versuche es noch einmal."</string>
+    <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"Aktiviere WLAN und versuche es erneut."</string>
 </resources>
