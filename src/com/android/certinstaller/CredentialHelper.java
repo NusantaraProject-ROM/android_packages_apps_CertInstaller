@@ -61,6 +61,7 @@ import java.util.List;
 class CredentialHelper {
     private static final String DATA_KEY = "data";
     private static final String CERTS_KEY = "crts";
+    private static final String USER_KEY_ALGORITHM = "user_key_algorithm";
 
     private static final String TAG = "CredentialHelper";
 
@@ -106,6 +107,8 @@ class CredentialHelper {
             outStates.putString(KeyChain.EXTRA_NAME, mName);
             outStates.putInt(Credentials.EXTRA_INSTALL_AS_UID, mUid);
             if (mUserKey != null) {
+                Log.d(TAG, "Key algorithm: " + mUserKey.getAlgorithm());
+                outStates.putString(USER_KEY_ALGORITHM, mUserKey.getAlgorithm());
                 outStates.putByteArray(Credentials.USER_PRIVATE_KEY,
                         mUserKey.getEncoded());
             }
@@ -126,9 +129,11 @@ class CredentialHelper {
         mBundle = (HashMap) savedStates.getSerializable(DATA_KEY);
         mName = savedStates.getString(KeyChain.EXTRA_NAME);
         mUid = savedStates.getInt(Credentials.EXTRA_INSTALL_AS_UID, -1);
-        byte[] bytes = savedStates.getByteArray(Credentials.USER_PRIVATE_KEY);
-        if (bytes != null) {
-            setPrivateKey(bytes);
+        String userKeyAlgorithm = savedStates.getString(USER_KEY_ALGORITHM);
+        byte[] userKeyBytes = savedStates.getByteArray(Credentials.USER_PRIVATE_KEY);
+        Log.d(TAG, "Loaded key algorithm: " + userKeyAlgorithm);
+        if (userKeyAlgorithm != null && userKeyBytes != null) {
+            setPrivateKey(userKeyAlgorithm, userKeyBytes);
         }
 
         ArrayList<byte[]> certs = Util.fromBytes(savedStates.getByteArray(CERTS_KEY));
@@ -201,9 +206,9 @@ class CredentialHelper {
         return (mUserKey != null) || hasUserCertificate() || hasCaCerts();
     }
 
-    void setPrivateKey(byte[] bytes) {
+    void setPrivateKey(String algorithm, byte[] bytes) {
         try {
-            KeyFactory keyFactory = KeyFactory.getInstance("RSA");
+            KeyFactory keyFactory = KeyFactory.getInstance(algorithm);
             mUserKey = keyFactory.generatePrivate(new PKCS8EncodedKeySpec(bytes));
         } catch (NoSuchAlgorithmException e) {
             throw new AssertionError(e);
@@ -230,6 +235,8 @@ class CredentialHelper {
         String newline = "<br>";
         if (mUserKey != null) {
             sb.append(context.getString(R.string.one_userkey)).append(newline);
+            sb.append(context.getString(R.string.userkey_type)).append(mUserKey.getAlgorithm())
+                    .append(newline);
         }
         if (mUserCert != null) {
             sb.append(context.getString(R.string.one_usercrt)).append(newline);
