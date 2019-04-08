@@ -27,6 +27,7 @@
     <string name="credential_info" msgid="2436768402308470397">"O pacote contém:"</string>
     <string name="p12_description" msgid="4128352087331630024">"Certificados no armazenamento de chaves PKCS12."</string>
     <string name="one_userkey" msgid="3500697912370644881">"uma chave de usuário"</string>
+    <string name="userkey_type" msgid="6214833257030657106">"Algoritmo:"</string>
     <string name="one_usercrt" msgid="7690798336332403106">"um certificado de usuário"</string>
     <string name="one_cacrt" msgid="2667950425420663146">"um certificado CA"</string>
     <string name="n_cacrts" msgid="2141498640685639208">"%d certificados CA"</string>

@@ -29,8 +29,7 @@
     <string name="credential_info" msgid="2436768402308470397">"Փաթեթը պարունակում է`"</string>
     <string name="p12_description" msgid="4128352087331630024">"Վկայականներ PKCS12 բանալիների պահոցում:"</string>
     <string name="one_userkey" msgid="3500697912370644881">"մեկ օգտատիրոջ բանալի"</string>
-    <!-- no translation found for userkey_type (6214833257030657106) -->
-    <skip />
+    <string name="userkey_type" msgid="6214833257030657106">"Ալգորիթմ՝"</string>
     <string name="one_usercrt" msgid="7690798336332403106">"մեկ օգտատիրոջ վկայական"</string>
     <string name="one_cacrt" msgid="2667950425420663146">"մեկ CA վկայագիր"</string>
     <string name="n_cacrts" msgid="2141498640685639208">"%d CA վկայականներ"</string>
