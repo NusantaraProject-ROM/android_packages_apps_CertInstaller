@@ -27,6 +27,7 @@
     <string name="credential_info" msgid="2436768402308470397">"Paketet innehåller:"</string>
     <string name="p12_description" msgid="4128352087331630024">"Certifikat i PKCS12-nyckellager."</string>
     <string name="one_userkey" msgid="3500697912370644881">"en användarnyckel"</string>
+    <string name="userkey_type" msgid="6214833257030657106">"Algoritm:"</string>
     <string name="one_usercrt" msgid="7690798336332403106">"ett användarcertifikat"</string>
     <string name="one_cacrt" msgid="2667950425420663146">"ett CA-certifikat"</string>
     <string name="n_cacrts" msgid="2141498640685639208">"%d CA-certifikat"</string>

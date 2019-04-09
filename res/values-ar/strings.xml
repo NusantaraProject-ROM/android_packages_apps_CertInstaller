@@ -27,8 +27,7 @@
     <string name="credential_info" msgid="2436768402308470397">"تحتوي الحزمة على:"</string>
     <string name="p12_description" msgid="4128352087331630024">"‏الشهادات في مخزن مفاتيح PKCS12."</string>
     <string name="one_userkey" msgid="3500697912370644881">"مفتاح مستخدم واحد"</string>
-    <!-- no translation found for userkey_type (6214833257030657106) -->
-    <skip />
+    <string name="userkey_type" msgid="6214833257030657106">"الخوارزمية:"</string>
     <string name="one_usercrt" msgid="7690798336332403106">"شهادة مستخدم واحد"</string>
     <string name="one_cacrt" msgid="2667950425420663146">"‏شهادة CA واحدة"</string>
     <string name="n_cacrts" msgid="2141498640685639208">"‏%d شهادات CA"</string>
