@@ -49,7 +49,7 @@
     <string name="credential_usage_label" msgid="1513892208033156805">"Kredentzialen erabilera:"</string>
   <string-array name="credential_usage">
     <item msgid="375085478373011304">"VPN konexioa eta aplikazioak"</item>
-    <item msgid="692322974985472861">"Wi-Fi konexioa"</item>
+    <item msgid="692322974985472861">"Wifia"</item>
   </string-array>
     <string name="certificate_capabilities_warning" msgid="4158609401937799110">"Oharra: ziurtagiri honen jaulkitzaileak gailura edo gailutik bidalitako trafiko guztia ikuska dezake."</string>
     <string name="wifi_title" msgid="8475811746333426489">"Wi-Fi profila"</string>
