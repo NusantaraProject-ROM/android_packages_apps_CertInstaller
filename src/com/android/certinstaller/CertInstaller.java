@@ -95,13 +95,18 @@ public class CertInstaller extends Activity {
                 toastErrorAndFinish(R.string.no_cert_to_saved);
                 finish();
             } else {
-                if (mCredentials.hasCaCerts()) {
+                // Confirm credentials if there's _only_ a CA certificate
+                // NOTE: This will affect WiFi CA certificates - those should not require
+                // confirming the lock screen credentials but the code currently cannot skip the
+                // confirmation for WiFi CA certificates because the user designates the certificate
+                // to a UID only after this stage.
+                if (mCredentials.hasCaCerts() && !mCredentials.hasPrivateKey() &&
+                        !mCredentials.hasUserCertificate()) {
                     KeyguardManager keyguardManager = getSystemService(KeyguardManager.class);
                     Intent intent = keyguardManager.createConfirmDeviceCredentialIntent(null, null);
                     if (intent == null) { // No screenlock
                         extractPkcs12OrInstall();
                     } else {
-                        // TODO(b/134057817): only do it when installing CA cert as a trust anchor.
                         startActivityForResult(intent, REQUEST_CONFIRM_CREDENTIALS);
                     }
                 } else {
