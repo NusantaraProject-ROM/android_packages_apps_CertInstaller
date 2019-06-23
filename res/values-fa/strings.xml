@@ -19,7 +19,7 @@
     <string name="app_name" msgid="9095072584761066851">"نصب‌کننده گواهی"</string>
     <string name="pick_file_title" msgid="4481949485108233297">"انتخاب یک گواهی‌نامه"</string>
     <string name="pkcs12_password_dialog_title" msgid="5997624645207427161">"استخراج گواهی"</string>
-    <string name="extracting_pkcs12" msgid="1881267738821799771">"در حال استخراج..."</string>
+    <string name="extracting_pkcs12" msgid="1881267738821799771">"درحال استخراج…"</string>
     <string name="pkcs12_file_password_dialog_title" msgid="8102721384767269510">"‏اجرا از %s"</string>
     <string name="name_credential_dialog_title" msgid="277729846491554437">"نام‌گذاری گواهی"</string>
     <string name="credential_name" msgid="1974979771369744378">"نام گواهی:"</string>
