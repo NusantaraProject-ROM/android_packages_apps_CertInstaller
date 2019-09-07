@@ -18,6 +18,7 @@ package com.android.certinstaller;
 
 import android.app.KeyguardManager;
 import android.app.admin.DevicePolicyManager;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -277,8 +278,8 @@ class CredentialHelper {
         Intent intent = new Intent("com.android.credentials.INSTALL");
         // To prevent the private key from being sniffed, we explicitly spell
         // out the intent receiver class.
-        intent.setClassName(
-                Util.SETTINGS_PACKAGE, "com.android.settings.security.CredentialStorage");
+        intent.setComponent(ComponentName.unflattenFromString(
+                context.getString(R.string.config_system_install_component)));
         intent.putExtra(Credentials.EXTRA_INSTALL_AS_UID, mUid);
         try {
             if (mUserKey != null) {
