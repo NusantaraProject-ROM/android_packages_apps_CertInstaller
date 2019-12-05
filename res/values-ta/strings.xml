@@ -48,7 +48,7 @@
     <string name="only_primary_user_allowed" msgid="4005084935023047716">"இந்தச் சாதனத்தின் உரிமையாளர் மட்டுமே சான்றிதழ்களை நிறுவலாம்."</string>
     <string name="credential_usage_label" msgid="1513892208033156805">"நன்சான்றின் பயன்பாடு:"</string>
   <string-array name="credential_usage">
-    <item msgid="375085478373011304">"VPN மற்றும் பயன்பாடுகள்"</item>
+    <item msgid="375085478373011304">"VPN மற்றும் ஆப்ஸ்"</item>
     <item msgid="692322974985472861">"வைஃபை"</item>
   </string-array>
     <string name="certificate_capabilities_warning" msgid="4158609401937799110">"கவனத்திற்கு: இந்தச் சான்றிதழை வழங்குபவர், சாதனத்தைப் பயன்படுத்துவதன் மூலம் கிடைக்கும் ட்ராஃபிக் அனைத்தையும் ஆய்வுசெய்யக்கூடும்."</string>
