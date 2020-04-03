@@ -20,9 +20,7 @@
     <string name="pick_file_title" msgid="4481949485108233297">"සහතිකයක් තෝරන්න"</string>
     <string name="pkcs12_password_dialog_title" msgid="5997624645207427161">"සහතිකය උද්ධෘත කරන්න"</string>
     <string name="extracting_pkcs12" msgid="1881267738821799771">"උද්ධෘත කරමින්..."</string>
-    <!-- String.format failed for translation -->
-    <!-- no translation found for pkcs12_file_password_dialog_title (8102721384767269510) -->
-    <skip />
+    <string name="pkcs12_file_password_dialog_title" msgid="8102721384767269510">"%s ගෙන් උද්ධෘත කරන්න"</string>
     <string name="name_credential_dialog_title" msgid="277729846491554437">"සහතිකය නම් කරන්න"</string>
     <string name="credential_name" msgid="1974979771369744378">"සහතිකයේ නම:"</string>
     <string name="credential_password" msgid="3520176519550993326">"සහතික උද්ධෘත කිරීමට මුරපදය ටයිප් කරන්න."</string>

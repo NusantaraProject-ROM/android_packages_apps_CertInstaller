@@ -70,7 +70,7 @@
     <string name="done_label" msgid="5597425930652904250">"EGINDA"</string>
     <string name="wifi_installer_detail" msgid="63879632832701669">"Instalatu Wi-Fi kredentzialak <xliff:g id="NAME">%1$s</xliff:g> bidez erabilgarri dauden sareetara konektatzeko."</string>
     <string name="wifi_installer_download_error" msgid="5429453090956277692">"Deskargatutako fitxategiak arazoak ditu eta ezin da instalatu. Ziurtatu iturburu zuzenetik deskargatu duzula fitxategia."</string>
-    <string name="wifi_installer_fail" msgid="894483173306576331">"Ezin dira instalatu Wi-Fi kredentzialak. Saiatu fitxategia berriro deskargatzen."</string>
+    <string name="wifi_installer_fail" msgid="894483173306576331">"Ezin dira instalatu wifi-kredentzialak. Deskargatu fitxategia berriro."</string>
     <string name="wifi_installer_fail_no_wifi_title" msgid="8358191074828840533">"Instalazioa bertan behera utzi da"</string>
     <string name="wifi_installer_fail_title" msgid="5547079779067835479">"Ezin da instalatu"</string>
     <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"Aktibatu Wi-Fi konexioa eta saiatu berriro."</string>
