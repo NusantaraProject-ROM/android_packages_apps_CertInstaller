@@ -73,5 +73,5 @@
     <string name="wifi_installer_fail" msgid="894483173306576331">"Wi-Fi эсептик дайындары орнотулбай калды. Файлды кайра жүктөп көрүңүз."</string>
     <string name="wifi_installer_fail_no_wifi_title" msgid="8358191074828840533">"Орнотуу жокко чыгарылды"</string>
     <string name="wifi_installer_fail_title" msgid="5547079779067835479">"Орнотулбай жатат"</string>
-    <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"Wi-Fi күйгүзүп, кайра аракет кылыңыз."</string>
+    <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"Wi-Fi күйгүзүп, кайталап көрүңүз."</string>
 </resources>

@@ -64,9 +64,7 @@
     <string name="wifi_ttls_config_text" msgid="2002413183253872168">"მომხმარებლის სახელი: %s\n"</string>
     <string name="wifi_tls_config_text" msgid="9062328536640168510">"კლიენტის სერტიფიკატი:\n%1$s\nგასაღები: %2$s\n"</string>
     <string name="wifi_sim_config_text" msgid="1666019954520831840">"SIM: %s\n"</string>
-    <!-- String.format failed for translation -->
-    <!-- no translation found for wifi_trust_config_text (5916047381475747783) -->
-    <skip />
+    <string name="wifi_trust_config_text" msgid="5916047381475747783">"სერტიფიკატის ნდობა: \n%s\n"</string>
     <string name="install_done_title" msgid="4822989918460334497">"ავტორიზაციის მონაცემები დაყენებულია"</string>
     <string name="install_done" msgid="1522718684172097080">"<xliff:g id="NAME">%1$s</xliff:g> ავტორიზაციის მონაცემები დაემატა შენახულ Wi-Fi ქსელებს."</string>
     <string name="done_label" msgid="5597425930652904250">"შესრულდა"</string>

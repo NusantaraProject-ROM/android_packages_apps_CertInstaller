@@ -73,5 +73,5 @@
     <string name="wifi_installer_fail" msgid="894483173306576331">"‏يتعذر تثبيت بيانات اعتماد Wi-Fi. يمكنك تجربة تنزيل الملف مرة أخرى."</string>
     <string name="wifi_installer_fail_no_wifi_title" msgid="8358191074828840533">"تم إلغاء التثبيت"</string>
     <string name="wifi_installer_fail_title" msgid="5547079779067835479">"يتعذر التثبيت"</string>
-    <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"‏شغِّل Wi-Fi وأعد المحاولة."</string>
+    <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"‏فعِّل Wi-Fi وأعد المحاولة."</string>
 </resources>
