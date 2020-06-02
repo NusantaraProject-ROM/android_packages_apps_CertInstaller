@@ -20,9 +20,7 @@
     <string name="pick_file_title" msgid="4481949485108233297">"Ընտրել վկայական"</string>
     <string name="pkcs12_password_dialog_title" msgid="5997624645207427161">"Արտահանեք վկայական"</string>
     <string name="extracting_pkcs12" msgid="1881267738821799771">"Արտահանվում է..."</string>
-    <!-- String.format failed for translation -->
-    <!-- no translation found for pkcs12_file_password_dialog_title (8102721384767269510) -->
-    <skip />
+    <string name="pkcs12_file_password_dialog_title" msgid="8102721384767269510">"Դուրսբերում %s-ից"</string>
     <string name="name_credential_dialog_title" msgid="277729846491554437">"Անվանեք վկայագիրը"</string>
     <string name="credential_name" msgid="1974979771369744378">"Վկայագրի անունը`"</string>
     <string name="credential_password" msgid="3520176519550993326">"Մուտքագրեք գաղտնաբառը` հավաստագրերն արտածելու համար:"</string>
